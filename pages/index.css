@@ -2,3 +2,22 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+
+/*main*/
+@import url(../blocks/main/main.css);
+
+/*ai-research*/
+@import url(../blocks/ai-research/ai-research.css);
+@import url(../blocks/ai-research/__title/ai-research__title.css);
+@import url(../blocks/ai-research/__title/_type/ai-research__title_type_page.css);
+@import url(../blocks/ai-research/__image/ai-research__image.css);
+@import url(../blocks/ai-research/__paragraph/ai-research__paragraph.css);
+@import url(../blocks/ai-research/__paragraph/_type/ai-research__paragraph_type_page.css);
+@import url(../blocks/ai-research/__cards/ai-research__cards.css);
+@import url(../blocks/ai-research/__card/ai-research__card.css);
+@import url(../blocks/ai-research/__title/_type/ai-research__title_type_card.css);
+@import url(../blocks/ai-research/__logo/ai-research__logo.css);
+@import url(../blocks/ai-research/__icon/ai-research__icon.css);
+@import url(../blocks/ai-research/__paragraph/_type/ai-research__paragraph_type_card.css);
+@import url(../blocks/ai-research/__button/ai-research__button.css);

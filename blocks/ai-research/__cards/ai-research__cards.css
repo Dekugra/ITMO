@@ -1,0 +1,9 @@
+.ai-research__cards {
+    max-width: 288px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 32px;
+    list-style: none;
+}
