@@ -11,3 +11,130 @@
 @import url(../blocks/lead/__span-accent/lead__span-accent.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__link/lead__link.css);
+
+
+.about {
+
+}
+
+.about__title {
+    margin: 60px 16px 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about__subtitle {
+    margin: 12px 16px 0;
+    padding: 0;
+}
+
+.about__slider {
+    margin: 32px 0 54px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.about__card {
+    width: 288px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+}
+
+.about__card::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    background-image: url("../images/about/pin.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about__card-date {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    line-height: 17.4px;
+    color: #009FAC;
+}
+
+.about__card-title {
+    height: 57px;
+    margin: 8px 24px 0 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #001337;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.about__card-text {
+    box-sizing: border-box;
+    margin: 12px 0 0;
+    padding: 12px 0 0;
+    color: #000D26;
+    border-top: 1px solid #009FAC;
+}
+
+.about__button-arrow {
+    display: none;
+}
+
+.about__button-arrow_left {
+}
+
+.about__button-arrow_right {
+}
+
+.slider__radio-list {
+    margin: 14px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.slider__radio-item {
+    margin: 0 4px 0;
+    padding: 0;
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.5;
+}
+
+.slider__radio-item_active {
+    opacity: 1;
+}
