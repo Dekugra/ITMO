@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  font-style:  bold;
+  font-style:  normal;
   font-weight: 700;
   src: url('../vendor/fonts/OpenSans-Bold.ttf') format('truetype');
 }
