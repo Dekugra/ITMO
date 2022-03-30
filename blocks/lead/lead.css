@@ -1,0 +1,37 @@
+.lead {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(../../images/lead/lead320.jpg);
+}
+
+@media (min-resolution: 2dppx) {
+    .lead {
+        background-image: url(../../images/lead/lead320@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .lead {
+        background-image: url(../../images/lead/lead768.jpg);
+    }
+}
+
+@media screen and (min-width: 760px) and (min-resolution: 2dppx) {
+    .lead {
+        background-image: url(../../images/lead/lead768@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .lead {
+        background-image: url(../../images/lead/lead1440.jpg);
+    }
+}
+
+@media screen and (min-width: 1300px) and (min-resolution: 2dppx) {
+    .lead {
+        background-image: url(../../images/lead/lead1440@2x.jpg);
+    }
+}
