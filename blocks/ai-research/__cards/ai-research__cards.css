@@ -7,3 +7,18 @@
     padding-bottom: 32px;
     list-style: none;
 }
+
+@media screen and (min-width: 768px) {
+    .ai-research__cards {
+        max-width: 690px;
+        justify-content: space-between;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__cards {
+        max-width: 1110px;
+        padding-bottom: 80px;
+    }
+}

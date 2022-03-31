@@ -1,3 +1,15 @@
 .ai-research__title_type_page {
     padding-top: 40px;
 }
+
+@media screen and (min-width: 768px) {
+    .ai-research__title_type_page {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__title_type_page {
+        padding-top: 80px;
+    }
+}

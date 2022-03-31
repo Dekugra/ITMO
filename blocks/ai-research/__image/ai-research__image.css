@@ -1,5 +1,24 @@
 .ai-research__image {
     max-width: 288px;
     border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
     margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .ai-research__image {
+        max-width: 330px;
+        max-height: 240px;
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__image {
+        max-width: 264px;
+        max-height: 276px;
+        margin-left: 12px;
+    }
 }

@@ -9,3 +9,22 @@
 .ai-research__card:nth-of-type(2n) {
     margin: 0 0 8px 0;
 }
+
+@media screen and (min-width: 768px) {
+    .ai-research__card {
+        min-width: 150px;
+        border-radius: 5.88px;
+        margin: 0;
+    }
+
+    .ai-research__card:nth-of-type(2n) {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__card {
+        min-width: 255px;
+        border-radius: 10px;
+    }
+}
