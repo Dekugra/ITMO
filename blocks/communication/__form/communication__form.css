@@ -1,0 +1,9 @@
+.communication__form {
+    margin-top: 23px;
+}
+
+@media all and (min-width: 418px) {
+    .communication__form {
+        margin-top: 37px;
+    }
+}

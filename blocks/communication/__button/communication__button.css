@@ -1,0 +1,11 @@
+.communication__button {
+    background-color: #009FAC;
+    font-size: 14px;
+    line-height: 19px;
+    border: white 1px solid;
+    border-radius: 5px;
+    height: 44px;
+    width: 288px;
+    color: white;
+    margin: 10px 0 40px 0;
+}
