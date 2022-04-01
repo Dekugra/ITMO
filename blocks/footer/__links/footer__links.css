@@ -3,3 +3,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media all and (min-width: 800px) {
+    .footer__links {
+        justify-content: space-around;
+    }
+  } 
+
+  @media all and (min-width: 900px) {
+    .footer__links {
+        margin-left: 100px;
+    }
+  } 

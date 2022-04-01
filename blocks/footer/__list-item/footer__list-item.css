@@ -5,3 +5,17 @@
     font-size: 12px;
     line-height: 20px;
 }
+
+@media all and (min-width: 650px) {
+    .footer__list-item {
+       line-height: 16px;
+       padding-bottom: 8px;
+    }
+  } 
+  
+@media all and (min-width: 800px) {
+    .footer__list-item {
+        font-size: 14px;
+        line-height: 19px;
+    }
+  } 

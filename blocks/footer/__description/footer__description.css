@@ -1,0 +1,25 @@
+.footer__description {
+    display: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    max-width: 204px;
+}
+
+@media all and (min-width: 500px) {
+    .footer__description {
+        display: block;
+        margin-right: 37px;
+        margin-bottom: 37px;
+    }
+  } 
+
+  @media all and (min-width: 800px) {
+    .footer__description {
+        max-width: 253px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 60px;
+    }
+  } 

@@ -5,3 +5,11 @@
     padding: 0;
     margin: 0 0 8px 0;
 }
+
+@media all and (min-width: 650px) {
+    .footer__list-title {
+        margin: 0 0 12px 0;
+        font-size: 14px;
+        line-height: 19px;
+    }
+  } 

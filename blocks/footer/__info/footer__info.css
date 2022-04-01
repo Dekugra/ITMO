@@ -4,3 +4,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media all and (min-width: 412px) {
+    .footer__info {
+        flex-direction: column;
+        margin: 80px 0 30px 0;
+    }
+  } 

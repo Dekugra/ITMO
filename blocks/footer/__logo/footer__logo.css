@@ -2,3 +2,9 @@
     width: 98px;
     height: auto;
 }
+
+@media all and (min-width: 412px) {
+    .footer__logo {
+        width: 150px;
+    }
+  } 

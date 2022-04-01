@@ -5,3 +5,17 @@
     line-height: 16px;
     max-width: 140px;
 }
+
+@media all and (min-width: 412px) {
+    .footer__copyright {
+        max-width: 253px;
+        margin: 37.5px 0 0 0;
+    }
+  } 
+  
+@media all and (min-width: 800px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 19px;
+    }
+  } 

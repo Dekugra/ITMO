@@ -1,3 +1,10 @@
 .footer__contact-info {
     max-width: 231px;
 }
+
+
+@media all and (min-width: 650px) {
+    .footer__contact-info {
+        max-width: 206px;
+    }
+  } 

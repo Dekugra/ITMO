@@ -7,3 +7,19 @@
 .footer__list:last-child {
     padding-left: 8px;
 }
+
+
+@media all and (min-width: 418px) {
+    .footer__list {
+        min-width: 119px;
+    }
+    .footer__list:last-child {
+        padding-left: 0; 
+    }
+  } 
+
+@media all and (min-width: 800px) {
+    .footer__list {
+        min-width: 230px;
+    }
+  } 
