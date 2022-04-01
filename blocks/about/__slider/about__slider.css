@@ -1,0 +1,19 @@
+.about__slider {
+    margin: 32px 0 54px;
+    position: relative;
+}
+
+@media screen and (min-width: 760px) {
+    .about__slider {
+        margin: 45px 39px 0;
+        padding-bottom: 75px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about__slider {
+        width: 1122px;
+        margin: 45px auto 0;
+        padding-bottom: 135px;
+    }
+}

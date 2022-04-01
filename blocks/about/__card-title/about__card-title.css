@@ -1,0 +1,24 @@
+.about__card-title {
+    height: 57px;
+    margin: 8px 8px 0 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #001337;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+@media screen and (min-width: 760px) {
+    .about__card-title {
+        height: 90px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

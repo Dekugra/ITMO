@@ -1,0 +1,13 @@
+.about__card-date {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    line-height: 17.4px;
+    color: #009FAC;
+}
+
+@media screen and (min-width: 760px) {
+    .about__card-date {
+        line-height: 19px;
+    }
+}

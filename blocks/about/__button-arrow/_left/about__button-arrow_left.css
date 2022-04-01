@@ -1,0 +1,24 @@
+.about__button-arrow_left {
+    display: none;
+}
+
+@media screen and (min-width: 1300px) {
+    .about__button-arrow_left {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: -76px;
+        top: 116px;
+        border: none;
+        border-radius: 50%;
+        background-image: url("../images/about/arrow-left.svg");
+        background-size: 36px 36px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);;
+    }
+}
