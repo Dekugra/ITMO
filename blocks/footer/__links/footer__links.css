@@ -1,0 +1,5 @@
+.footer__links {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
