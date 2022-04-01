@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+    .popup__additional-text_inactive {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .popup__additional-text {
+        display: block; 
+    }
+}

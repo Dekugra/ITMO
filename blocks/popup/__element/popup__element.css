@@ -1,0 +1,15 @@
+.popup__element {
+    margin-left: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .popup__element {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .popup__element {
+        margin-left: 29px;
+    }
+}

@@ -1,0 +1,30 @@
+.popup__additional-text {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .popup__additional-text {
+        display: block;
+        max-width: 431px;
+        text-align: start;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        padding-left: 219px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .popup__additional-text {
+        max-width: 650px;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+        padding-left: 420px;
+        padding-bottom: 25px;
+        
+    }
+}

@@ -6,6 +6,7 @@
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../../../../images/ai-research__background_QA.jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 5.46px;
     opacity: 0.8;
     content: '';
     position: absolute;
@@ -13,4 +14,16 @@
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .ai-research__card_type_QA::after {
+        border-radius: 5.88px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__card_type_QA::after {
+        border-radius: 10px;
+    }
 }
