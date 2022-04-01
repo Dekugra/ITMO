@@ -5,6 +5,11 @@
 
 @import url(../blocks/root/root.css);
 
+@import url(../blocks/page/page.css);
+
+/*main*/
+@import url(../blocks/main/main.css);
+
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__wrapper/lead__wrapper.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -29,10 +34,26 @@
 @import url(../blocks/slider/__radio-item/slider__radio-item.css);
 @import url(../blocks/slider/__radio-item/_active/slider__radio-item_active.css);
 
-
-
-
-
-
-
-
+/*ai-research*/
+@import url(../blocks/ai-research/ai-research.css);
+@import url(../blocks/ai-research/__title/ai-research__title.css);
+@import url(../blocks/ai-research/__title/_type/ai-research__title_type_page.css);
+@import url(../blocks/ai-research/__wrapper/ai-research__wrapper.css);
+@import url(../blocks/ai-research/__row-image/ai-research__row-image.css);
+@import url(../blocks/ai-research/__image/ai-research__image.css);
+@import url(../blocks/ai-research/__image/_active/ai-research__image_active.css);
+@import url(../blocks/ai-research/__column-text/ai-research__column-text.css);
+@import url(../blocks/ai-research/__paragraph/ai-research__paragraph.css);
+@import url(../blocks/ai-research/__paragraph/_type/ai-research__paragraph_type_page.css);
+@import url(../blocks/ai-research/__paragraph/_type/ai-research__paragraph_type_light.css);
+@import url(../blocks/ai-research/__cards/ai-research__cards.css);
+@import url(../blocks/ai-research/__card/ai-research__card.css);
+@import url(../blocks/ai-research/__card/_type/ai-research__card_type_project.css);
+@import url(../blocks/ai-research/__card/_type/ai-research__card_type_machine-learning.css);
+@import url(../blocks/ai-research/__card/_type/ai-research__card_type_data.css);
+@import url(../blocks/ai-research/__card/_type/ai-research__card_type_QA.css);
+@import url(../blocks/ai-research/__title/_type/ai-research__title_type_card.css);
+@import url(../blocks/ai-research/__logo/ai-research__logo.css);
+@import url(../blocks/ai-research/__icon/ai-research__icon.css);
+@import url(../blocks/ai-research/__paragraph/_type/ai-research__paragraph_type_card.css);
+@import url(../blocks/ai-research/__button/ai-research__button.css);

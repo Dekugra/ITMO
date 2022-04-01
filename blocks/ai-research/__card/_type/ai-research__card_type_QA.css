@@ -1,0 +1,16 @@
+.ai-research__card_type_QA {
+    position: relative;
+}
+
+.ai-research__card_type_QA::after {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(../../../../images/ai-research__background_QA.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

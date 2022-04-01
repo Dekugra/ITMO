@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    .ai-research__wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
