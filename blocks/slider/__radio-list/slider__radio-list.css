@@ -1,0 +1,19 @@
+.slider__radio-list {
+    margin: 2px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 760px) {
+    .slider__radio-list {
+        margin-top: 14px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .slider__radio-list {
+        margin-top: 18px;
+    }
+}

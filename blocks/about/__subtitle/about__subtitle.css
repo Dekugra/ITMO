@@ -1,0 +1,22 @@
+.about__subtitle {
+    width: 288px;
+    margin: 12px auto 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 760px) {
+    .about__subtitle {
+        width: 690px;
+        margin-top: 30px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about__subtitle {
+        width: 907px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

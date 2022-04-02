@@ -1,0 +1,29 @@
+.about__card-text {
+    height: 112px;
+    box-sizing: border-box;
+    margin: 12px 0 0;
+    padding: 12px 0 0;
+    color: #000D26;
+    border-top: 1px solid #009FAC;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+@media screen and (min-width: 760px) {
+    .about__card-text {
+        height: 155px;
+        margin: 20px 0 0;
+        padding: 20px 0 0;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about__card-text {
+        margin: 20px 0 0;
+        padding: 20px 0 0;
+    }
+}

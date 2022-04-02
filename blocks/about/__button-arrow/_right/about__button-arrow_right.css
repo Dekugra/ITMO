@@ -1,0 +1,7 @@
+@media screen and (min-width: 1300px) {
+    .about__button-arrow_right {
+        display: block;
+        right: -64px;
+        background-image: url("../../../../images/about/arrow-right.svg");
+    }
+}

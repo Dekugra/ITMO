@@ -1,0 +1,57 @@
+.about__card {
+    width: 288px;
+    height: 250px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+}
+
+.about__card::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    background-image: url("../../../images/about/pin.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 760px) {
+    .about__card {
+        width: 330px;
+        height: 330px;
+        margin: 0 15px;
+        padding: 20px 18px 18px;
+        border-radius: 10px;
+    }
+
+    .about__card::before {
+        width: 40px;
+        height: 40px;
+        top: -15px;
+        right: -14px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about__card {
+        width: 348px;
+        height: 340px;
+        margin: 0 16px;
+        padding: 20px 20px 18px;
+        border-radius: 10px;
+    }
+
+    .about__card::before {
+        width: 40px;
+        height: 41.8px;
+        top: -15px;
+        right: -13.1px;
+    }
+}
