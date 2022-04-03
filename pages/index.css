@@ -1,11 +1,38 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+@import url(../blocks/main/main.css);
+
 @import url(../blocks/root/root.css);
+
 @import url(../blocks/page/page.css);
 
 /*main*/
 @import url(../blocks/main/main.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__wrapper/lead__wrapper.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__span-accent/lead__span-accent.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__link/lead__link.css);
+
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__slider/about__slider.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__card/about__card.css);
+@import url(../blocks/about/__card-date/about__card-date.css);
+@import url(../blocks/about/__card-title/about__card-title.css);
+@import url(../blocks/about/__card-text/about__card-text.css);
+@import url(../blocks/about/__button-arrow/about__button-arrow.css);
+@import url(../blocks/about/__button-arrow/_left/about__button-arrow_left.css);
+@import url(../blocks/about/__button-arrow/_right/about__button-arrow_right.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__radio-list/slider__radio-list.css);
+@import url(../blocks/slider/__radio-item/slider__radio-item.css);
+@import url(../blocks/slider/__radio-item/_active/slider__radio-item_active.css);
 
 /*ai-research*/
 @import url(../blocks/ai-research/ai-research.css);

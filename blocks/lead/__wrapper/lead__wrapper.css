@@ -1,0 +1,17 @@
+.lead__wrapper {
+    width: 288px;
+    padding: 30px 16px 0;
+}
+
+@media screen and (min-width: 760px) {
+    .lead__wrapper {
+        width: 435px;
+        padding: 58px 0 0 39px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .lead__wrapper {
+        padding: 92px 0 0 830px;
+    }
+}

@@ -19,4 +19,4 @@ __Состав команды:__
 [*Denis Kugrashov*](https://github.com/Dekugra)  
 [*Ekaterina Katunova*](https://github.com/KatunovaKate)  
 
-[__Ссылка на GitHub Pages__]()
+[__Ссылка на GitHub Pages__](https://dekugra.github.io/ITMO/)
