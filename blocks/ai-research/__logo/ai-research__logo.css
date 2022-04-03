@@ -11,8 +11,8 @@
 
 @media screen and (min-width: 768px) {
     .ai-research__logo {
-        width: 42px;
-        height: 42px;
+        width: 41.19px;
+        height: 41.19px;
         box-shadow: 0  4px 20px rgba(1,54,157,0.15);
         margin: 20px auto;
     }
@@ -22,6 +22,6 @@
     .ai-research__logo {
         width: 70px;
         height: 70px;
-        margin: 20px auto;
+        margin: 50px auto;
     }
 }

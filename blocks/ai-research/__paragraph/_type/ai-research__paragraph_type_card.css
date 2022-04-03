@@ -1,11 +1,18 @@
 .ai-research__paragraph_type_card {
     max-width: 121px;
+    height: 56px;
     text-align: center;
     font-size: 10px;
     line-height: 14px;
+    letter-spacing: 0.1px;
     margin: 0 auto 16px auto;
     position: relative;
     z-index: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 @media screen and (min-width: 768px) {
@@ -18,8 +25,10 @@
 @media screen and (min-width: 1440px) {
     .ai-research__paragraph_type_card {
         max-width: 215px;
+        height: 60px;
         font-size: 14px;
         line-height: 20px;
         margin: 0 auto 50px auto;
+        -webkit-line-clamp: 3;
     }
 }

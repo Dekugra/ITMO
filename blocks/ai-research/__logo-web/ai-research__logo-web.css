@@ -1,0 +1,18 @@
+.ai-research__logo-web {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__logo-web {
+        display: block;
+        width: 24px;
+        height: 22.56px;
+        background-image: url(../../../images/ai-research__logo-web.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 353px;
+        left: 129px;
+    }
+}

@@ -57,3 +57,17 @@
 @import url(../blocks/ai-research/__icon/ai-research__icon.css);
 @import url(../blocks/ai-research/__paragraph/_type/ai-research__paragraph_type_card.css);
 @import url(../blocks/ai-research/__button/ai-research__button.css);
+@import url(../blocks/ai-research/__logo-web/ai-research__logo-web.css);
+
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__additional-text/popup__additional-text.css);
+@import url(../blocks/popup/__additional-text/_inactive/popup__additional-text_inactive.css);
+@import url(../blocks/popup/__paragraph/popup__paragraph.css);
+@import url(../blocks/popup/__element/popup__element.css);
+@import url(../blocks/popup/__exit/popup__exit.css);
+@import url(../blocks/popup/__overlay/popup__overlay.css);

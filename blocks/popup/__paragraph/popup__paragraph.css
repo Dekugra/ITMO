@@ -1,0 +1,28 @@
+.popup__paragraph {
+    max-width: 268px;
+    text-align: start;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    list-style: disc outside;
+}
+
+@media screen and (min-width: 768px) {
+    .popup__paragraph {
+        max-width: 431px;
+        font-size: 14px;
+        line-height: 19px;
+        padding-left: 219px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .popup__paragraph {
+        max-width: 650px;
+        font-size: 18px;
+        line-height: 25px;
+        padding-left: 420px;
+    }
+}
