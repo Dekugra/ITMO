@@ -7,5 +7,30 @@
     height: 44px;
     width: 288px;
     color: white;
-    margin: 10px 0 40px 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+@media all and (min-width: 525px) {
+    .communication__button {
+        height: 45px;
+        width: 210px;
+        margin-top: 34px;
+        margin-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media all and (min-width: 950px) {
+    .communication__button {
+        width: 350px;
+        height: 60px;
+        margin-top: 39px;
+        margin-bottom: 35px;
+    }
 }

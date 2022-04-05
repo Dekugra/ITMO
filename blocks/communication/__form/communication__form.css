@@ -1,9 +1,37 @@
 .communication__form {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 23px;
+    position: relative;
 }
 
-@media all and (min-width: 418px) {
+@media all and (min-width: 525px) {
     .communication__form {
         margin-top: 37px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 755px) {
+    .communication__form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (min-width: 950px) {
+    .communication__form {
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 1190px) {
+    .communication__form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 60px;
     }
 }

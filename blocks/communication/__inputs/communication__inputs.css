@@ -1,0 +1,15 @@
+@media all and (min-width: 525px) {
+    .communication__inputs {
+        display: grid;
+        grid-template-columns: repeat(2, 210px);
+        grid-column-gap: 29px;
+        grid-row-gap: 20px;
+        margin-left: auto;
+    }
+}
+
+@media all and (min-width: 950px) {
+    .communication__inputs {
+        grid-template-columns: repeat(2, 352px);
+    }
+}

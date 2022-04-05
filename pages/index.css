@@ -35,6 +35,7 @@
 @import url(../blocks/communication/communication.css);
 @import url(../blocks/communication/__button/communication__button.css);
 @import url(../blocks/communication/__form/communication__form.css);
+@import url(../blocks/communication/__inputs/communication__inputs.css);
 @import url(../blocks/communication/__input/communication__input.css);
 @import url(../blocks/communication/__input/_type/communication__input_type_message.css);
 @import url(../blocks/communication/__text/communication__text.css);

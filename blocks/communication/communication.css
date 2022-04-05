@@ -6,6 +6,8 @@
     flex-direction: column;
     text-align: center;
     padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media all and (min-width: 418px) {

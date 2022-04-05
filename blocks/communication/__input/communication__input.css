@@ -16,11 +16,33 @@
 }
 
 
-@media all and (min-width: 418px) {
+@media all and (min-width: 525px) {
     .communication__input {
-        width: 210px;
         font-size: 14px;
         line-height: 20px;
         border-radius: 10px;
+        margin: 0;
+        width: 198px;
+    }
+}
+
+@media all and (min-width: 525px) {
+    .communication__input::placeholder {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media all and (min-width: 951px) {
+    .communication__input {
+        width: 330px;
+        height: 58px;
+        padding-left: 20px;
+    }
+}
+
+@media all and (min-width: 951px) {
+    .communication__input::placeholder {
+        font-size: 18px;
     }
 }
