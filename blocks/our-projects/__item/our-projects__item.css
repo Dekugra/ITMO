@@ -1,0 +1,9 @@
+.our-projects__item {
+    width: 140px;
+    height: 130px;
+    text-align: start;
+    background-color: rgba(0, 159, 172, 1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}

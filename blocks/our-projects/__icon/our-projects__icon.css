@@ -1,0 +1,9 @@
+.our-projects__icon {
+    width: 12px;
+    height: 6px;
+    background-image: url(../../../images/our-projects/our-projects__icon.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 6px;
+}

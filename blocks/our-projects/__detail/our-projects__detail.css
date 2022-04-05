@@ -1,0 +1,12 @@
+.our-projects__detail {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../../images/our-projects/our-projects__detail.svg);
+    background-color: rgba(255, 255, 255, 1);
+    background-position: center;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0  2.2px 11.02px rgba(1, 54, 157, 0.15);
+    margin: 0 0 0 auto;
+}
