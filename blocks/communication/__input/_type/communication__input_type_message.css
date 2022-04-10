@@ -1,0 +1,44 @@
+.communication__input_type_message {
+    height: 128px;
+    padding-top: 10px;
+}
+
+@media all and (min-width: 525px) {
+    .communication__input_type_message {
+        height: 96px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (min-width: 755px) {
+    .communication__input_type_message {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+}
+
+@media all and (min-width: 765px) {
+    .communication__input_type_message {
+        margin-left: 29px;
+    }
+}
+
+@media all and (min-width: 950px) {
+    .communication__input_type_message {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (min-width: 1190px) {
+    .communication__input_type_message {
+        margin-top: 0px;
+        margin-left: 29px;
+        padding-top: 20px;
+        height: 118px;
+    }
+}

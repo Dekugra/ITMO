@@ -1,0 +1,17 @@
+.communication {
+    background-color: #009FAC;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (min-width: 418px) {
+    .communication {
+        padding: 0 39px;
+    }
+}
