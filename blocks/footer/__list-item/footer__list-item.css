@@ -1,0 +1,21 @@
+.footer__list-item {
+    list-style-type: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+@media all and (min-width: 650px) {
+    .footer__list-item {
+       line-height: 16px;
+       padding-bottom: 8px;
+    }
+  } 
+  
+@media all and (min-width: 800px) {
+    .footer__list-item {
+        font-size: 14px;
+        line-height: 19px;
+    }
+  } 

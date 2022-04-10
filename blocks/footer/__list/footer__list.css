@@ -1,0 +1,25 @@
+.footer__list {
+    padding: 0;
+    margin: 0 0 40px 0;
+    min-width: 140px;
+}
+
+.footer__list:last-child {
+    padding-left: 8px;
+}
+
+
+@media all and (min-width: 418px) {
+    .footer__list {
+        min-width: 119px;
+    }
+    .footer__list:last-child {
+        padding-left: 0; 
+    }
+  } 
+
+@media all and (min-width: 800px) {
+    .footer__list {
+        min-width: 230px;
+    }
+  } 

@@ -1,0 +1,6 @@
+.footer__contact-links {
+    margin: 40px 0 40px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,24 @@
+.footer__authors {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    opacity: 0.5;
+    padding: 0;
+    margin: 41px 0 33px 0;
+}
+
+@media all and (min-width: 400px) {
+    .footer__authors {
+        margin: 41px 30px 64px 0;
+    }
+  } 
+
+@media all and (min-width: 650px) {
+    .footer__authors {
+        text-align: left;
+        margin: 0 37px 64px 0;
+        font-size: 14px;
+        line-height: 19px;
+    }
+  } 

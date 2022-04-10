@@ -1,0 +1,13 @@
+.footer {
+    position: relative;
+    padding: 0 16px;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (min-width: 418px) {
+    .footer {
+        padding: 0 39px;
+    }
+  } 

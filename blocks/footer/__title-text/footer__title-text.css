@@ -1,0 +1,17 @@
+.footer__title-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+    padding: 0 0 11px 0;
+}
+
+
+@media all and (min-width: 650px) {
+    .footer__title-text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0 0 12px 0;
+    }
+  } 

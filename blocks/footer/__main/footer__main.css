@@ -1,0 +1,23 @@
+.footer__main {
+    position: relative;
+}
+
+@media all and (min-width: 412px) {
+    .footer__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  } 
+
+@media all and (min-width: 650px) {
+    .footer__main {
+        flex-wrap: nowrap;
+    }
+  } 
+
+  @media all and (min-width: 880px) {
+    .footer__main {
+        justify-content: space-between;
+        margin-top: -65px;
+    }
+  } 
