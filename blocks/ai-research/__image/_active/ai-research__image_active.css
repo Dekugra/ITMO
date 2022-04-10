@@ -1,0 +1,9 @@
+.ai-research__image_active {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__image_active {
+        display: inline;
+    }
+}

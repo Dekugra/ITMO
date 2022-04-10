@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+    .ai-research__paragraph_type_light {
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ai-research__paragraph_type_light {
+        line-height: 26px;
+    }
+}

@@ -1,0 +1,26 @@
+.communication__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+    text-align: left;
+    margin: 0;
+}
+
+@media all and (min-width: 418px) {
+    .communication__text {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .communication__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 919px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,22 @@
+.communication__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 40px 0 23px 0;
+}
+
+@media all and (min-width: 418px) {
+    .communication__title {
+        font-size: 24px;
+        line-height: 33px;
+        margin: 60px 0 37px 0;
+    }
+}
+
+@media all and (min-width: 950px) {
+    .communication__title {
+        font-size: 36px;
+        line-height: 68px;
+        margin: 80px 0 37px 0;
+    }
+}
