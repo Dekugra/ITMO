@@ -1,5 +1,6 @@
 .our-projects {
     max-width: 320px;
+    position: relative;
     margin: 0 auto;
     padding: 40px 16px;
 }

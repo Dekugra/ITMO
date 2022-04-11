@@ -78,11 +78,23 @@
 @import url(../blocks/our-projects/__button/our-projects__button.css);
 @import url(../blocks/our-projects/__menu/our-projects__menu.css);
 @import url(../blocks/our-projects/__icon/our-projects__icon.css);
-@import url(../blocks/our-projects/__container/our-projects__container.css);
-@import url(../blocks/our-projects/__navigation/our-projects__navigation.css);
 
-/* our-projects: template */
-@import url(../blocks/our-projects/__item/our-projects__item.css);
-@import url(../blocks/our-projects/__logo/our-projects__logo.css);
-@import url(../blocks/our-projects/__text/our-projects__text.css);
-@import url(../blocks/our-projects/__detail/our-projects__detail.css);
+/* popup-menu */
+@import url(../blocks/popup-menu/popup-menu.css);
+@import url(../blocks/popup-menu/__container/popup-menu__container.css);
+@import url(../blocks/popup-menu/__button/popup-menu__button.css);
+
+/* our-projects: navigation-container */
+@import url(../blocks/navigation-container/navigation-container.css);
+@import url(../blocks/navigation-container/__wrapper/navigation-container__wrapper.css);
+@import url(../blocks/navigation-container/__slide/navigation-container__slide.css);
+@import url(../blocks/navigation-container/__bag/navigation-container__bag.css);
+@import url(../blocks/navigation-container/__item/navigation-container__item.css);
+@import url(../blocks/navigation-container/__logo/navigation-container__logo.css);
+@import url(../blocks/navigation-container/__text/navigation-container__text.css);
+@import url(../blocks/navigation-container/__detail/navigation-container__detail.css);
+
+/* pagination */
+@import url(../blocks/pagination/pagination.css);
+
+@import url(../blocks/style.css);

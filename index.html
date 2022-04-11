@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
   <link rel="stylesheet" href="pages/index.css">
   <title>ИТМО: когнитивные технологии и машинное обучение</title>
 </head>
@@ -118,31 +122,34 @@
                 <h3 class="our-projects__menu">ВСЕ ПРОЕКТЫ</h3>
                 <div class="our-projects__icon"></div>
               </button>
-              <ul class="our-projects__container">
-                <li class="our-projects__item">
-                  <img class="our-projects__logo" src="./images/our-projects/our-projects__logo.svg" alt="Логотип компании Газпром нефть.">
-                  <h4 class="our-projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</h4>
-                  <div class="our-projects__detail"><a></a></div>
-                </li>
-                <li class="our-projects__item">
-                  <img class="our-projects__logo" src="./images/our-projects/our-projects__logo.svg" alt="Логотип компании Газпром нефть.">
-                  <h4 class="our-projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</h4>
-                  <div class="our-projects__detail"><a></a></div>
-                </li>
-                <li class="our-projects__item">
-                  <img class="our-projects__logo" src="./images/our-projects/our-projects__logo.svg" alt="Логотип компании Газпром нефть.">
-                  <h4 class="our-projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</h4>
-                  <div class="our-projects__detail"><a></a></div>
-                </li>
-                <li class="our-projects__item">
-                  <img class="our-projects__logo" src="./images/our-projects/our-projects__logo.svg" alt="Логотип компании Газпром нефть.">
-                  <h4 class="our-projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</h4>
-                  <div class="our-projects__detail"><a></a></div>
-                </li>
-              </ul>
-              <div class="our-projects__navigation">
-                <!-- ... -->
+              <div class="popup-menu">
+                <div class="popup-menu__container">
+                  <button class="popup-menu__button" type="button">Все проекты</button>
+                  <button class="popup-menu__button" type="button">Гос. проекты</button>
+                  <button class="popup-menu__button" type="button">Спецпрограммы</button>
+                  <button class="popup-menu__button" type="button">В разработке</button>
+                </div>
               </div>
+              <!-- Slider main container -->
+              <div class="navigation-container swiper">
+                <!-- Additional required wrapper -->
+                <div class="navigation-container__wrapper swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="navigation-container__slide swiper-slide">
+                  </div>
+                </div>
+              </div>
+              <div class="pagination">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-next"></div>
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div> 
+              </div>
+              
       </section>
       <section class="education"></section>
       <section class="publications"></section>
@@ -178,11 +185,13 @@
     </div>
   </div>
   <template id="card">
-    <li class="our-projects__item">
-      <div class="our-projects__logo"></div>
-      <h4 class="our-projects__text"></h4>
-      <div class="our-projects__detail"><a></a></div>
+    <li class="navigation-container__item">
+      <img class="navigation-container__logo" src="./images/our-projects/our-projects__logo.svg" alt="Логотип компании Газпром нефть.">
+      <h4 class="navigation-container__text">Направление включает в себя исследования и разработки технологий МО и КТ.</h4>
+      <div class="navigation-container__detail"><a></a></div>
     </li>
   </template>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

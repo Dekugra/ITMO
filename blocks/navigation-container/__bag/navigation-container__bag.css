@@ -1,9 +1,9 @@
-.our-projects__container {
+.navigation-container__bag {
     max-width: 288px;
     display: grid;
     grid-template-columns: repeat(2, 140px);
     gap: 8px;
     list-style: none;
-    margin: 0 auto 11px auto;
+    margin: 0 auto 8px auto;
     padding: 0;
 }
