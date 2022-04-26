@@ -40,13 +40,14 @@
 } */
 
 .swiper-pagination {
+    white-space: nowrap;
     position: static;
     display: inline;
-    max-width: 25px;
+    width: auto;
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
     letter-spacing: 0.1px;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
 }
